@@ -1,0 +1,26 @@
+{
+  "name": "jwtsign",
+  "version": "1.0.0",
+  "description": "https://community.spiceworks.com/topic/2308516-creating-a-jwt-request-for-first-issue-with-a-json-key-file?from_forum=356",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike-in-it-sw/jwtsign.git"
+  },
+  "author": "Mike in IT",
+  "license": "MIT",
+  "bin": {
+    "jwtsign": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/mike-in-it-sw/jwtsign/issues"
+  },
+  "homepage": "https://github.com/mike-in-it-sw/jwtsign#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "yargs": "^16.2.0"
+  }
+}
